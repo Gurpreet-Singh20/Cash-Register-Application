@@ -1,5 +1,5 @@
 //
-//  screen2.swift
+//  RestockViewController.swift
 //  Cash Register Application
 //
 //  Created by Gurpreet Singh on 2024-10-17.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class screen2: UIViewController {
+class RestockViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +16,7 @@ class screen2: UIViewController {
     }
     
 
+   
     /*
     // MARK: - Navigation
 

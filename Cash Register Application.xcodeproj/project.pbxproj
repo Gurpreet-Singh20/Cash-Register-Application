@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		937DDDC22CC1C1A2005BCEAB /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DDDC12CC1C1A2005BCEAB /* ManagerViewController.swift */; };
+		937DDDC42CC1C42D005BCEAB /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DDDC32CC1C42D005BCEAB /* HistoryTableViewController.swift */; };
+		937DDDC62CC1CC14005BCEAB /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DDDC52CC1CC14005BCEAB /* Globals.swift */; };
+		938E01BA2CC1E0D200CDEC90 /* RestockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938E01B92CC1E0D200CDEC90 /* RestockViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		937DDD922CC0DD27005BCEAB /* Cash Register Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cash Register Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		937DDDC12CC1C1A2005BCEAB /* ManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerViewController.swift; sourceTree = "<group>"; };
+		937DDDC32CC1C42D005BCEAB /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		937DDDC52CC1CC14005BCEAB /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		938E01B92CC1E0D200CDEC90 /* RestockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +56,10 @@
 		937DDD892CC0DD27005BCEAB = {
 			isa = PBXGroup;
 			children = (
+				938E01B92CC1E0D200CDEC90 /* RestockViewController.swift */,
+				937DDDC52CC1CC14005BCEAB /* Globals.swift */,
+				937DDDC32CC1C42D005BCEAB /* HistoryTableViewController.swift */,
+				937DDDC12CC1C1A2005BCEAB /* ManagerViewController.swift */,
 				937DDD942CC0DD27005BCEAB /* Cash Register Application */,
 				937DDD932CC0DD27005BCEAB /* Products */,
 			);
@@ -132,6 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938E01BA2CC1E0D200CDEC90 /* RestockViewController.swift in Sources */,
+				937DDDC22CC1C1A2005BCEAB /* ManagerViewController.swift in Sources */,
+				937DDDC42CC1C42D005BCEAB /* HistoryTableViewController.swift in Sources */,
+				937DDDC62CC1CC14005BCEAB /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
